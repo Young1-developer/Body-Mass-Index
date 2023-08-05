@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(6, 54, 56);
+    color: #fff;
+}
+.container{
+    padding: 10px;
+    background-color: rgb(10, 96, 99);
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    box-shadow: 0 10px 13px 10px rgba(0,0,0,0.7);
+}
+form input[type=number], input[type=submit]{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: auto;
+    padding: 15px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: chartreuse;
+    color: #fff;
+    transition: 500ms ease-in;
+}
+.btn:hover{
+    background-color: rgb(10, 96, 99);
+}
+.btn:focus{
+    background: darkcyan;
+}
+#output{
+    margin-top: 40px;
+    padding: 15px;
+    text-align: left;
+}
+#output::before{
+    content: '=>';
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
